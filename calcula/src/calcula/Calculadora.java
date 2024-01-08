@@ -14,12 +14,12 @@ public class Calculadora {
 		    }
 
 			// Método para multiplicar dos números
-			publick static int multiplicar(int a, int b){
+			public static int multiplicar(int a, int b){
 				return a * b;
 			}
 
-		// Método para multiplicar dos números
-			publick static int dividir(int a, int b){
+			// Método para dividir dos números
+			public static int dividir(int a, int b){
 				return a / b;
 			}
 			
