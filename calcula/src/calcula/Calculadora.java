@@ -13,6 +13,16 @@ public class Calculadora {
 		        return a - b;
 		    }
 
+			// Método para multiplicar dos números
+			publick static int multiplicar(int a, int b){
+				return a * b;
+			}
+
+		// Método para multiplicar dos números
+			publick static int dividir(int a, int b){
+				return a / b;
+			}
+			
 		    // Método principal para probar la calculadora
 		    public static void main(String[] args) {
 		        int num1 = 10;
@@ -26,8 +36,12 @@ public class Calculadora {
 		        int resultadoResta = restar(num1, num2);
 		        System.out.println("Resta: " + resultadoResta);
 		    }
-		
-
-
+			// Realizar multiplicación
+		        int resultadoMultiplicar = multiplicar(num1, num2);
+		        System.out.println("Multiplicación: " + resultadoMultiplicar);
+		    }
+			// Realizar división
+		        int resultadoDividir = dividir(num1, num2);
+		        System.out.println("División: " + resultadoDividir);
+		    }
 	}
-
