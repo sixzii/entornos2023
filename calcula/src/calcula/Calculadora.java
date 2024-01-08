@@ -35,11 +35,11 @@ public class Calculadora {
 		        // Realizar resta
 		        int resultadoResta = restar(num1, num2);
 		        System.out.println("Resta: " + resultadoResta);
-		    }
+		    
 			// Realizar multiplicación
 		        int resultadoMultiplicar = multiplicar(num1, num2);
 		        System.out.println("Multiplicación: " + resultadoMultiplicar);
-		    }
+		    
 			// Realizar división
 		        int resultadoDividir = dividir(num1, num2);
 		        System.out.println("División: " + resultadoDividir);
